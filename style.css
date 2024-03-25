@@ -1,9 +1,13 @@
+*{
+    margin: 0 0px;
+    padding: 0 0px;
+    }
 header{
     background-color: #383d58;
     color: white;
 }
 body{
-    background-color: #383d58;
+    background-color: #1d0808;
     color: white;
 
 }
@@ -12,7 +16,15 @@ body{
 
 }
 .cabecalho{
-    background-color: #700f0f;
+    background-image:linear-gradient(#700f0f, #500f0f, #1d0808 );
     display: flex;
     justify-content: space-around;
+    padding: 24px 0;
 }
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 64px;
+    font-size: 32px;
+
+
+    }
