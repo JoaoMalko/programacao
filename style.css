@@ -1,34 +1,85 @@
-*{
-    margin: 0 0px;
-    padding: 0 0px;
-    }
-header{
-    background-color: #383d58;
-    color: white;
+.cabecalho-imagem{
+    width: 10%;
+    margin-left: -150px;
+    margin-top: 5px;
 }
-body{
-    background-color: #1d0808;
-    color: white;
 
-}
- .cabecalho-imagem{
-    width: 20%;
-
-}
-.cabecalho{
-    background-image:linear-gradient(#700f0f, #500f0f, #1d0808 );
+.cabecalho {
+    background-image: linear-gradient(hsl(240, 4%, 37%), #20188d , #2117b1 );
+    color: white;
     display: flex;
     justify-content: space-around;
-    padding: 24px 0;
+    align-items: center;
+    padding: 12px 0;
 }
+
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 64px;
     font-size: 32px;
+}
 
-
-    }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .escola-imagem{
     width: 30%;
+    margin-left: -1500px;
+    display: flex;
+}
+
+.escola{
+    background-image: linear-gradient(#2117b1, #20188d, #2117b1, #807bca);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+
+}
+
+.estudante-messi{
+    display: flex;
+    width: 25%;
+    margin-top: 100px;
+}
+
+.estudantes-titulo{
+    display: flex;
+    margin-left: 750px;
+    font-size: 36px;
+}
+
+.insta-1{
+    display: flex;
+    width: 2.5%;
+    position: relative;
+    top: -350px;
+    left: 350px;
+}
+
+.twitter{
+    display: flex;
+    width: 2.5%;
+    position: relative;
+    top: -320px;
+    left: 350px;
+}
+
+.estudante-nome-messi {
+    display: flex;
+    font-size: 24px;
+    position: relative;
+    top: -285px;
+    margin-left: 410px;
+}
+
+.estudante-nome-messi-2 {
+    display: flex;
+    font-size: 24px;
+    position: relative;
+    margin-left: 410px;
+    top: -230px;
 }
